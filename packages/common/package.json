@@ -1,0 +1,16 @@
+{
+  "name": "@test2/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "echo testing server with version: $npm_package_version"
+  }
+}
