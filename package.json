@@ -8,7 +8,7 @@
   ],
   "scripts" :{
     "build": "lerna run build",
-    "test": "lerna run test",
+    "test": "lerna run test --since",
     "diff": "lerna diff",
     "new-version": "lerna version --conventional-commits --yes"
   },
